@@ -1,0 +1,13 @@
+C:\Users\Urbaser\source\repos\Vitec_Tietomitta\Vitec_Tietomitta\bin\Debug\netcoreapp3.1\Vitec_Tietomitta.exe
+C:\Users\Urbaser\source\repos\Vitec_Tietomitta\Vitec_Tietomitta\bin\Debug\netcoreapp3.1\Vitec_Tietomitta.deps.json
+C:\Users\Urbaser\source\repos\Vitec_Tietomitta\Vitec_Tietomitta\bin\Debug\netcoreapp3.1\Vitec_Tietomitta.runtimeconfig.json
+C:\Users\Urbaser\source\repos\Vitec_Tietomitta\Vitec_Tietomitta\bin\Debug\netcoreapp3.1\Vitec_Tietomitta.runtimeconfig.dev.json
+C:\Users\Urbaser\source\repos\Vitec_Tietomitta\Vitec_Tietomitta\bin\Debug\netcoreapp3.1\Vitec_Tietomitta.dll
+C:\Users\Urbaser\source\repos\Vitec_Tietomitta\Vitec_Tietomitta\bin\Debug\netcoreapp3.1\Vitec_Tietomitta.pdb
+C:\Users\Urbaser\source\repos\Vitec_Tietomitta\Vitec_Tietomitta\obj\Debug\netcoreapp3.1\Vitec_Tietomitta.csprojAssemblyReference.cache
+C:\Users\Urbaser\source\repos\Vitec_Tietomitta\Vitec_Tietomitta\obj\Debug\netcoreapp3.1\Vitec_Tietomitta.AssemblyInfoInputs.cache
+C:\Users\Urbaser\source\repos\Vitec_Tietomitta\Vitec_Tietomitta\obj\Debug\netcoreapp3.1\Vitec_Tietomitta.AssemblyInfo.cs
+C:\Users\Urbaser\source\repos\Vitec_Tietomitta\Vitec_Tietomitta\obj\Debug\netcoreapp3.1\Vitec_Tietomitta.csproj.CoreCompileInputs.cache
+C:\Users\Urbaser\source\repos\Vitec_Tietomitta\Vitec_Tietomitta\obj\Debug\netcoreapp3.1\Vitec_Tietomitta.dll
+C:\Users\Urbaser\source\repos\Vitec_Tietomitta\Vitec_Tietomitta\obj\Debug\netcoreapp3.1\Vitec_Tietomitta.pdb
+C:\Users\Urbaser\source\repos\Vitec_Tietomitta\Vitec_Tietomitta\obj\Debug\netcoreapp3.1\Vitec_Tietomitta.genruntimeconfig.cache

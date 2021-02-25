@@ -1,0 +1,32 @@
+body{
+	background-image: url(https://luomus.fi/sites/default/files/330_harakka.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: right;
+	background-size: 1000px 650px;
+}
+h1{
+	font: 35px arial bold;
+	color:blue;
+}
+h3{
+	font: 20px arial bold;
+	color:green;
+}	
+form{
+	font: 15px georgia bold;
+}
+.eka{
+	border-style: groove; 
+	border-color:gray; 
+	width:400px;
+	padding: 50px;
+	background-color:#32cfca
+	;
+}
+.toka{
+	border-style: dotted; 
+	border-color:gray; 
+	width:400px;
+	padding: 50px;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Vitec-Tietomitta</title>
+	<meta charset = 'utf-8'>
+	<LINK rel="stylesheet" type="text/css" href="./tyylit.css">
+	<script>
+	function Lisaa(kpl){
+		luku1=Number(document.getElementById(kpl).value)+1;
+		document.getElementById(kpl).value=luku1;
+	}
+	function Loggaa(lintu){
+		document.getElementById('loki').value += new Date() +' - ' + 'uusi havainto: ' + lintu + ' - havaintojen tilanne: Varis: '
+		+ document.getElementById('maara1').value + ' kappaletta, Harakka: ' + document.getElementById('maara2').value + ' kappaletta\n\n';
+	}
+	function LisaaLaji(uusi){
+		//tämä pätkä ei toimi muilta osin, kuin että se tuo lisätyn lajin sivulle lokin perään.
+		var UusiLintu = document.createElement('h3');
+		var uusiNimi = document.createTextNode(uusi +':');
+		UusiLintu.appendChild(uusiNimi);
+		var currentDiv = document.getElementById('div1');
+		document.body.insertBefore(UusiLintu, currentDiv);
+	}
+	function LoggaaLaji(lintu){
+		document.getElementById('loki').value += new Date() +' - ' + 'lajin lisäys: ' + lintu;
+	}
+</script>
+</head>
+<h1>Toimiston linnut</h1>
+<body>
+<form name='lomake' method='post'>
+<h3>Varis: <br></h3>
+	<div id='lintu1' class='eka'>
+		<input type='text' name='maara1' id='maara1' value='0' size='5'><br>
+		<br>
+		<input type='button' name='plus' value='lisää havainto' onclick="Lisaa('maara1'); Loggaa('varis');"<br>				
+	</div>
+<h3>Harakka: <br></h3>
+	<div id='lintu2' class='eka'>
+		<input type='text' name='maara2' id='maara2' value='0' size='5'><br>
+		<br>
+		<input type='button' name='plus' value='lisää havainto' onclick="Lisaa('maara2'); Loggaa('harakka');"<br>				
+	</div>
+<h3>Uuden lajin lisäys:<br></h3>
+	<div id='lisays' class='toka'>
+		<input type='text' name='laji' id='laji' value='' size='20'><br>
+		<br>
+		<input type='button' name='uusilaji' value='lisää uusi laji' onclick="LisaaLaji(laji.value); LoggaaLaji(laji.value)"<br>
+	</div>
+<h3>Loki:<br></h3>
+	<div class='toka'>
+		<textarea name='loki' id='loki' rows='12' cols='50' placeholder="Havaitut linnut">
+		</textarea>
+	</div>
+</form>
+</body>
+</html>
